@@ -377,13 +377,19 @@ margin-bottom: 94px;
     
         color: #212121;
         width: 1600px;
+        padding-top: 94px;
+        padding-bottom:50px ;
+        
 }
 
 .list-command{
     display:flex;
     margin-left: 215px;
-    padding: 50px 0 94px 0;
+    margin-bottom: 94px;
     
+    }
+    .list-command>li{
+        margin-right:30px ;
     }
 
     .command-members{
@@ -392,12 +398,12 @@ margin-bottom: 94px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     
     text-align: center;
     letter-spacing: 0.03em;
     
     color: #212121;
+    margin-bottom: 10px;
     }
 
     .command-position{
@@ -406,12 +412,20 @@ margin-bottom: 94px;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
     
     text-align: center;
     letter-spacing: 0.03em;
     
     color: #757575;
+    }
+
+    .card{
+        padding: 30px 60px 30px 60px;
+        background: #FFFFFF;
+            /* material shadow v1 */
+        
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
     }
     
 
